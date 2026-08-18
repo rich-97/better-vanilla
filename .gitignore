@@ -1,0 +1,17 @@
+# Mods, resource packs y shaders se descargan con sync.py, nunca se commitean
+mods/
+resourcepacks/
+shaderpacks/
+*.jar
+*.zip
+
+# Basura de instancias de Minecraft
+logs/
+saves/
+crash-reports/
+config/
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
