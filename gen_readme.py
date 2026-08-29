@@ -14,6 +14,12 @@ D = {
  "iris": "Motor de shaders para Fabric: es lo que permite usar shaderpacks como BSL o Bliss.",
  "xaeros-minimap": "Minimapa en la esquina de la pantalla con waypoints, mobs y jugadores.",
  "xaeros-world-map": "Mapa a pantalla completa de todo lo que fuiste explorando. Se integra con el minimapa.",
+ "ukus-armor-hud": "Muestra las piezas de armadura y la herramienta en la mano en un rincón de la pantalla, con su durabilidad y un aviso cuando alguna está por romperse. No hace falta abrir el inventario.",
+ "ukulib": "Librería de configuración que necesita uku's Armor HUD. No agrega nada por sí sola.",
+ "inventory-profiles-next": "Ordena inventario y cofres con un botón que aparece en la interfaz o con un atajo de teclado. También apila ítems iguales, tira todo y bloquea slots.",
+ "libipn": "Librería que necesita Inventory Profiles Next. No agrega nada por sí sola.",
+ "fabric-language-kotlin": "Runtime de Kotlin para Fabric: lo necesita Inventory Profiles Next. No agrega nada por sí solo.",
+ "pickup-notifications": "Muestra un aviso emergente cada vez que recogés un ítem o ganás experiencia. En servidores multijugador tiene que estar también del lado del server.",
 }
 
 RP = {
@@ -79,8 +85,9 @@ README = f"""# Better Vanilla
 > *Minecraft, pero se ve mejor y no te perdés.*
 
 Modpack vanilla+ para **Minecraft 26.2** con **Fabric**: cero mods de contenido, cero
-cambios de estructuras o de worldgen. Solo shaders, un resource pack y un mapa —
-la experiencia de juego es exactamente la vanilla de Mojang.
+cambios de estructuras o de worldgen. Shaders, un resource pack, un mapa y un par de
+mejoras de interfaz (HUD de armadura, ordenar inventario) — la lógica de juego sigue
+siendo la vanilla de Mojang.
 
 Este repo **no contiene los archivos** — guarda la lista con versión, URL y hash de cada uno
 ([`assets.json`](assets.json)) y un script que los descarga. Así el repo pesa kilobytes en vez
@@ -90,7 +97,7 @@ de {peso_txt}, los diffs muestran exactamente qué cambió, y nadie redistribuye
 |---|---|
 | **Minecraft** | 26.2 |
 | **Mod loader** | Fabric (Loader 0.19.3) |
-| **Mods** | {len(mods)} (todos de infraestructura: loader, rendimiento, mapa) |
+| **Mods** | {len(mods)} (infraestructura + interfaz: rendimiento, mapa, HUD, inventario) |
 | **Resource packs** | {len(packs)} |
 | **Shaders** | {len(shaders)} (uno por sistema operativo) |
 | **RAM recomendada** | 4 GB mínimo, 6 GB cómodo |
@@ -145,7 +152,8 @@ Dentro del juego:
 
 ## Núcleo
 
-Mods de infraestructura — ninguno cambia gameplay ni agrega contenido:
+Mods de infraestructura y de interfaz — ninguno cambia gameplay, worldgen ni agrega
+contenido:
 
 {tabla_nucleo()}
 

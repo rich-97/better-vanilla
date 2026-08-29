@@ -55,6 +55,72 @@
     "filename": "xaeroworldmap-fabric-26.2-1.44.2.jar"
   },
   {
+    "type": "mod",
+    "slug": "ukus-armor-hud",
+    "title": "uku's Armor HUD",
+    "version_number": "0.12.0+mc26.2-fabric",
+    "game_versions": ["26.2"],
+    "loaders": ["fabric"],
+    "url": "https://cdn.modrinth.com/data/wF189hn9/versions/K6G1JNFw/ukus-armor-hud-fabric-0.12.0%2Bmc26.2.jar",
+    "sha1_remote": "73e2e9a61258f55d03107cffd5531d397fd86b24",
+    "filename": "ukus-armor-hud-fabric-0.12.0+mc26.2.jar"
+  },
+  {
+    "type": "mod",
+    "slug": "ukulib",
+    "title": "ukulib",
+    "version_number": "2.1.1+26.2-fabric",
+    "game_versions": ["26.2"],
+    "loaders": ["fabric"],
+    "url": "https://cdn.modrinth.com/data/Y8uFrUil/versions/olOAyH3N/ukulib-fabric-2.1.1%2B26.2.jar",
+    "sha1_remote": "9ee183b0ed4ef105691ecfe99a00588acc3c086b",
+    "filename": "ukulib-fabric-2.1.1+26.2.jar"
+  },
+  {
+    "type": "mod",
+    "slug": "inventory-profiles-next",
+    "title": "Inventory Profiles Next",
+    "version_number": "fabric-26.2-2.3.7",
+    "game_versions": ["26.2"],
+    "loaders": ["fabric"],
+    "url": "https://cdn.modrinth.com/data/O7RBXm3n/versions/SnUA305X/InventoryProfilesNext-fabric-26.2-2.3.7.jar",
+    "sha1_remote": "fcffe506ef542841503971b9f7bf251f8f694f74",
+    "filename": "InventoryProfilesNext-fabric-26.2-2.3.7.jar"
+  },
+  {
+    "type": "mod",
+    "slug": "libipn",
+    "title": "libIPN",
+    "version_number": "fabric-26.2-6.8.3",
+    "game_versions": ["26.2"],
+    "loaders": ["fabric"],
+    "url": "https://cdn.modrinth.com/data/onSQdWhM/versions/SkvWSBFK/libIPN-fabric-26.2-6.8.3.jar",
+    "sha1_remote": "356e9327929c8559f48cd151bbe7ece38d83d82a",
+    "filename": "libIPN-fabric-26.2-6.8.3.jar"
+  },
+  {
+    "type": "mod",
+    "slug": "fabric-language-kotlin",
+    "title": "Fabric Language Kotlin",
+    "version_number": "1.13.13+kotlin.2.4.10",
+    "game_versions": ["26.2"],
+    "loaders": ["fabric"],
+    "url": "https://cdn.modrinth.com/data/Ha28R6CL/versions/bdhiINYC/fabric-language-kotlin-1.13.13%2Bkotlin.2.4.10.jar",
+    "sha1_remote": "620cb137a9dc69ce86f3114f19d9eedab16366f5",
+    "filename": "fabric-language-kotlin-1.13.13+kotlin.2.4.10.jar"
+  },
+  {
+    "type": "mod",
+    "slug": "pickup-notifications",
+    "title": "Pickup Notifications",
+    "version_number": "3.0.1+26.2-fabric",
+    "game_versions": ["26.2"],
+    "loaders": ["fabric"],
+    "url": "https://cdn.modrinth.com/data/wWiJfmyy/versions/LAXLx6E9/pickupnotifications-fabric-3.0.1%2B26.2.jar",
+    "sha1_remote": "f627f44fdac534499ada8f39da489a7b15ff3bc5",
+    "filename": "pickupnotifications-fabric-3.0.1+26.2.jar"
+  },
+  {
     "type": "shaderpack",
     "slug": "bsl-shaders",
     "title": "BSL Shaders",
