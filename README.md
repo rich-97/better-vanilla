@@ -9,17 +9,17 @@ siendo la vanilla de Mojang.
 
 Este repo **no contiene los archivos** — guarda la lista con versión, URL y hash de cada uno
 ([`assets.json`](assets.json)) y un script que los descarga. Así el repo pesa kilobytes en vez
-de ~35 MB, los diffs muestran exactamente qué cambió, y nadie redistribuye mods ajenos.
+de ~36 MB, los diffs muestran exactamente qué cambió, y nadie redistribuye mods ajenos.
 
 | | |
 |---|---|
 | **Minecraft** | 26.2 |
 | **Mod loader** | Fabric (Loader 0.19.3) |
-| **Mods** | 11 (infraestructura + interfaz: rendimiento, mapa, HUD, inventario) |
+| **Mods** | 13 (infraestructura + interfaz: rendimiento, mapa, HUD, inventario) |
 | **Resource packs** | 1 |
 | **Shaders** | 2 (uno por sistema operativo) |
 | **RAM recomendada** | 4 GB mínimo, 6 GB cómodo |
-| **Peso en disco** | ~35 MB |
+| **Peso en disco** | ~36 MB |
 
 ---
 
@@ -75,6 +75,7 @@ contenido:
 
 | Mod | Qué hace |
 |---|---|
+| [Controlify](https://modrinth.com/mod/controlify) | Soporte completo de mandos (Xbox, PlayStation, EasySMX, etc.): menú radial, mira con giroscopio, teclado en pantalla y ajustes en el juego. Solo cliente. |
 | [Fabric API](https://modrinth.com/mod/fabric-api) | Librería base que necesitan casi todos los mods de Fabric. No agrega contenido por sí sola. |
 | [Fabric Language Kotlin](https://modrinth.com/mod/fabric-language-kotlin) | Runtime de Kotlin para Fabric: lo necesita Inventory Profiles Next. No agrega nada por sí solo. |
 | [Inventory Profiles Next](https://modrinth.com/mod/inventory-profiles-next) | Ordena inventario y cofres con un botón que aparece en la interfaz o con un atajo de teclado. También apila ítems iguales, tira todo y bloquea slots. |
@@ -86,6 +87,7 @@ contenido:
 | [ukulib](https://modrinth.com/mod/ukulib) | Librería de configuración que necesita uku's Armor HUD. No agrega nada por sí sola. |
 | [Xaero's Minimap](https://modrinth.com/mod/xaeros-minimap) | Minimapa en la esquina de la pantalla con waypoints, mobs y jugadores. |
 | [Xaero's World Map](https://modrinth.com/mod/xaeros-world-map) | Mapa a pantalla completa de todo lo que fuiste explorando. Se integra con el minimapa. |
+| [YetAnotherConfigLib (YACL)](https://modrinth.com/mod/yacl) | Librería de configuración que necesita Controlify. No agrega nada por sí sola. Ojo: fijada en 3.9.6 — la 3.9.7 crashea al arrancar (conflicto de mixins con MixinExtras 0.5.4). |
 
 ---
 

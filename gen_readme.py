@@ -19,6 +19,8 @@ D = {
  "inventory-profiles-next": "Ordena inventario y cofres con un botón que aparece en la interfaz o con un atajo de teclado. También apila ítems iguales, tira todo y bloquea slots.",
  "libipn": "Librería que necesita Inventory Profiles Next. No agrega nada por sí sola.",
  "fabric-language-kotlin": "Runtime de Kotlin para Fabric: lo necesita Inventory Profiles Next. No agrega nada por sí solo.",
+ "controlify": "Soporte completo de mandos (Xbox, PlayStation, EasySMX, etc.): menú radial, mira con giroscopio, teclado en pantalla y ajustes en el juego. Solo cliente.",
+ "yacl": "Librería de configuración que necesita Controlify. No agrega nada por sí sola. Ojo: fijada en 3.9.6 — la 3.9.7 crashea al arrancar (conflicto de mixins con MixinExtras 0.5.4).",
  "pickup-notifications": "Muestra un aviso emergente cada vez que recogés un ítem o ganás experiencia. En servidores multijugador tiene que estar también del lado del server.",
 }
 

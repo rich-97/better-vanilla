@@ -146,6 +146,28 @@
     "plataforma": "Windows / Linux"
   },
   {
+    "type": "mod",
+    "slug": "controlify",
+    "title": "Controlify",
+    "version_number": "3.5.3+mc26.2",
+    "game_versions": ["26.2"],
+    "loaders": ["fabric"],
+    "url": "https://cdn.modrinth.com/data/DOUdJVEm/versions/VDw4mGkG/controlify-3.5.3%2Bmc26.2-universal.jar",
+    "sha1_remote": "52a9beb9f9782690f1170f2e72e1764fe3f82199",
+    "filename": "controlify-3.5.3+mc26.2-universal.jar"
+  },
+  {
+    "type": "mod",
+    "slug": "yacl",
+    "title": "YetAnotherConfigLib (YACL)",
+    "version_number": "3.9.6+26.2-fabric",
+    "game_versions": ["26.2"],
+    "loaders": ["fabric"],
+    "url": "https://cdn.modrinth.com/data/1eAoo2KR/versions/cnfPzuFU/yet_another_config_lib_v3-3.9.6%2B26.2-fabric.jar",
+    "sha1_remote": "40887775504751acd752545e6370a76ca3b5bda9",
+    "filename": "yet_another_config_lib_v3-3.9.6+26.2-fabric.jar"
+  },
+  {
     "type": "resourcepack",
     "slug": "faithful-32x",
     "title": "Faithful 32x",
